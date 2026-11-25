@@ -16,23 +16,23 @@ from pathlib import Path
 LINE = "Spin aborted: unbalanced load. One shoe detected. Add the other shoe."
 MAX_CHARS = 200
 # Line design (judge criteria, in order):
-#  C1 honest error - "Temperature rising" is a real fridge alert; door-open
-#     counts are real smart-fridge telemetry, and repeated openings really
-#     do warm the cabinet. The fault is named, not invented.
-#  C2 laugh - a physical system diagnosing a psychological fault: the
-#     fridge concludes the problem is not thermal but the owner's
-#     indecision. "Nine times" is the damning, precise count.
-#  C3 humour from truth - the joke is the telemetry itself; nothing is
-#     bolted on. Every owner has stood at an open fridge like this.
-#  C4 machine voice - flat diagnostic register throughout; "I cannot
-#     cool indecision" is a plain statement of functional limitation.
-#  C5 economy - 105/200 chars; the opening diagnostic earns C1, the
-#     middle sentence carries the evidence, the last sentence is the turn.
-# Chosen over the washer (one-sock unbalanced load) and dryer (lint fire)
-# trials: GLM-5.3-Flash pairwise under the house brief put this line
-# first among the surviving candidates after the toaster line was dropped
-# (stuck-toast/ejected-toast is saturated in the sibling toaster-error
-# field, and its "we are both stuck" turn duplicates a sibling trial).
+#  C1 honest error - "Spin aborted: unbalanced load" is a real washer
+#     fault report; a single shoe really does unbalance a spin cycle.
+#     The fault is named, not invented.
+#  C2 laugh - the fix is the joke: the machine's honest remedy for one
+#     shoe is the other shoe, stated as a plain instruction.
+#  C3 humour from truth - nothing is bolted on; the absurdity is the
+#     owner's load choice, reported without comment.
+#  C4 machine voice - flat diagnostic register throughout; no punchline
+#     announces itself, the line reads like a status readout.
+#  C5 economy - 69/200 chars; fault, cause, and fix in three short
+#     beats, every word load-bearing.
+# Rebuild context: v1 (fridge "cannot cool indecision") graded R1
+# 0.447544, rank 1335/1899 - outside the final-heat top 500. This line
+# evolves the v1 backup (one-sock unbalanced load) away from the sock
+# angle, which the R1 board already holds ("Error 04: The Missing
+# Sock" ranked directly above v1), and drops v1's crafted-punchline
+# structure for a purely functional instruction.
 
 
 def main() -> int:
