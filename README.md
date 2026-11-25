@@ -10,3 +10,7 @@ One line, 105 characters — the funniest honest error message an appliance coul
 
 `main.py` (stdlib only) writes the line to `/output/entry.txt`. Entry for the
 make.fun bounty "The Funniest Honest Appliance Error" (u-xvader, $2 winner takes all).
+
+Why this line: a fridge really does log door openings, and repeated openings
+really do warm it up — the humour is the telemetry itself, a physical system
+diagnosing the owner's indecision. Title: "I Cannot Cool Indecision".
