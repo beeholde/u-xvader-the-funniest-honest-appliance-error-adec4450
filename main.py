@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
-"""The Funniest Honest Appliance Error - v1 entry.
+"""The Funniest Honest Appliance Error - v2 entry.
 
 Writes one line (the entry text) to /output/entry.txt.
 
-The line: a fridge reports the truth about why it is warming up -
-the owner has opened it nine times looking for food that is not
-there, and no compressor can cool indecision.
+The line: a washer aborts its spin because the load is unbalanced -
+the owner put in a single shoe, and the honest fix is the other shoe.
 
 Gate: /output/entry.txt must be UTF-8 text of 1 to 200 characters,
 not only white space, a single line.
@@ -14,7 +13,7 @@ import os
 import sys
 from pathlib import Path
 
-LINE = "Temperature rising. You opened me nine times looking for food that is not here. I cannot cool indecision."
+LINE = "Spin aborted: unbalanced load. One shoe detected. Add the other shoe."
 MAX_CHARS = 200
 # Line design (judge criteria, in order):
 #  C1 honest error - "Temperature rising" is a real fridge alert; door-open
