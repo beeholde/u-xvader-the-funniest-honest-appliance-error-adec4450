@@ -27,9 +27,12 @@ MAX_CHARS = 200
 #  C5 economy - 92/200 chars; state, consequence, and owner
 #     behaviour in three short beats, every word load-bearing.
 # Rebuild context: v1 (fridge "cannot cool indecision") graded R1
-# 0.447544, rank 1335/1899 - outside the final-heat top 500. The
-# provisional shoe line was replaced after GLM pairwise judging put
-# this ice-bin line ahead of it head-to-head.
+# 0.447544, rank 1335/1899 - outside the final-heat top 500. In the
+# GLM guard the provisional shoe line levelled with v1 and T1, while
+# eight stage-1 candidates beat it head-to-head. A round-robin
+# playoff among those eight put this ice-bin line first (aggregate
+# 0.629; 0.75 against the shoe line), so it replaced the shoe line
+# before submission.
 
 
 def main() -> int:
